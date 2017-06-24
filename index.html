@@ -1,454 +1,458 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="utf-8" />
-	<title>AleksReen-Template</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-	<link rel="stylesheet" href="libs/bootstrap/css/bootstrap.min.css">
-    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" />
-	<link rel="stylesheet" href="style/header.css" />
-    <link rel="stylesheet" href="style/section-advantage.css">
-	<link rel="stylesheet" href="style/section-projects.css">
-	<link rel="stylesheet" href="style/section-employeers.css">
-	<link rel="stylesheet" href="style/section-download.css">
-	<link rel="stylesheet" href="style/footer.css">
-	<link rel="stylesheet" href="style/connectModal.css">
-	<link rel="stylesheet" href="style/media.css" />
-</head>
-<body>
-    
-<header id="header" class="header">
-    <nav class="header__nav">
-        <div class="container">
-			<div class="row header__row">
 
-				<div class="navbar-header header__continer">
-                    <button class="navbar-toggle collapsed header__button" data-toggle="collapse" data-target="#menu">
+<head>
+    <meta charset="utf-8" />
+    <title>AleksReen-Template</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <link rel="stylesheet" href="libs/bootstrap/css/bootstrap.min.css">
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="style/header.css" />
+    <link rel="stylesheet" href="style/section-advantage.css">
+    <link rel="stylesheet" href="style/section-projects.css">
+    <link rel="stylesheet" href="style/section-employeers.css">
+    <link rel="stylesheet" href="style/section-download.css">
+    <link rel="stylesheet" href="style/footer.css">
+    <link rel="stylesheet" href="style/connectModal.css">
+    <link rel="stylesheet" href="style/media.css" />
+</head>
+
+<body>
+
+    <header id="header" class="header">
+        <nav class="header__nav">
+            <div class="container">
+                <div class="row header__row">
+
+                    <div class="navbar-header header__continer">
+                        <button class="navbar-toggle collapsed header__button" data-toggle="collapse" data-target="#menu">
                         <span class="glyphicon glyphicon-menu-hamburger header__icon-button"></span>
                     </button>
-                    <a href="index.html" class="navbar-brand header__logo">
-                        <h1 class="header__logo-text">LOGO</h1>
-                    </a>
-				</div>
+                        <a href="index.html" class="navbar-brand header__logo">
+                            <h1 class="header__logo-text">LOGO</h1>
+                        </a>
+                    </div>
 
-                <div class="collapse navbar-collapse navbar-right header__menu-container" id="menu">
-                    <ul id="header-menu" class="menu header__menu">
-                        <li class = "header__conteiner-link"><a class = "header__link anchor" href="#advantage">Advantage</a></li>
-                        <li class = "header__conteiner-link"><a class = "header__link anchor" href="#project">Projects</a></li>
-                        <li class = "header__conteiner-link"><a class = "header__link anchor" href="#employeers">Employeers</a></li>
-                        <li class = "header__conteiner-link"><a class = "header__link anchor" href="#contact">Contact</a></li>
-                    </ul>
+                    <div class="collapse navbar-collapse navbar-right header__menu-container" id="menu">
+                        <ul id="header-menu" class="menu header__menu">
+                            <li class="header__conteiner-link"><a class="header__link anchor" href="#advantage">Advantage</a></li>
+                            <li class="header__conteiner-link"><a class="header__link anchor" href="#project">Projects</a></li>
+                            <li class="header__conteiner-link"><a class="header__link anchor" href="#employeers">Employeers</a></li>
+                            <li class="header__conteiner-link"><a class="header__link anchor" href="#contact">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="header__separate"></div>
+            </div>
+        </nav>
+
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+
+            <ol class="carousel-indicators carousel-indicators_position">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+            </ol>
+
+            <div class="carousel-inner">
+                <div class="item active">
+                    <div class="header__title-block">
+                        <h1 class="header__title">Template</h1>
+                        <p class="header__title-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe adipisci necessitatibus labore vero accusamus sint!</p>
+                        <button class="btn btn-lg btn-danger">Some Button</button>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="header__title-block">
+                        <h1 class="header__title">Template 2</h1>
+                        <p class="header__title-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe adipisci necessitatibus labore vero accusamus sint!</p>
+                        <button class="btn btn-lg btn-success">Some Button</button>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="header__title-block">
+                        <h1 class="header__title">Template 3</h1>
+                        <p class="header__title-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe adipisci necessitatibus labore vero accusamus sint!</p>
+                        <button class="btn btn-lg btn-warning">Some Button</button>
+                    </div>
                 </div>
             </div>
 
-            <div class="header__separate"></div>
-       </div>
-    </nav>
-
-<div id="myCarousel" class="carousel slide" data-ride="carousel">
-
-  <ol class="carousel-indicators carousel-indicators_position">
-    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-    <li data-target="#myCarousel" data-slide-to="1"></li>
-    <li data-target="#myCarousel" data-slide-to="2"></li>
-  </ol>
-
-  <div class="carousel-inner">
-    <div class="item active">
-        <div class="header__title-block">
-		    <h1 class="header__title">Template</h1>
-			<p class="header__title-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-                Saepe adipisci necessitatibus labore vero accusamus sint!</p>
-			<button class="btn btn-lg btn-danger">Some Button</button>
-		</div>
-    </div>
-
-    <div class="item">
-        <div class="header__title-block">
-		    <h1 class="header__title">Template 2</h1>
-			<p class="header__title-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-                Saepe adipisci necessitatibus labore vero accusamus sint!</p>
-		    <button class="btn btn-lg btn-success">Some Button</button>
-		</div>
-    </div>
-
-    <div class="item">
-        <div class="header__title-block">
-			<h1 class="header__title">Template 3</h1>
-			<p class="header__title-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-                Saepe adipisci necessitatibus labore vero accusamus sint!</p>
-			<button class="btn btn-lg btn-warning">Some Button</button>
-		</div>
-    </div>
-  </div>
-
-  <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-    <span class="glyphicon glyphicon-chevron-left"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="right carousel-control" href="#myCarousel" data-slide="next">
-    <span class="glyphicon glyphicon-chevron-right"></span>
-    <span class="sr-only">Next</span>
-  </a>
-</div>
-
-</header>
-
-<section class="section-advantage" id="advantage">
-    <div class="conteiner">
-        <div class="row section-advantage__row">
-			<div  class="section-advantage__text">Our Advantage</div>
-            <div class="col-md-4 col-sm-6">
-					<div class="advantage">
-						<i class="fa fa-wrench advantage__header-icon" aria-hidden="true"></i>
-						<h3 class="advantage__header">Castomised</h3>
-						<p class="advantage__header-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo qui nam beatae eligendi quia pariatur facere consequatur libero dolore excepturi.</p>
-					</div>
-				</div>
-
-                <div class="col-md-4 col-sm-6">
-					<div class="advantage">
-						<i class="fa fa-desktop advantage__header-icon"></i>
-						<h3 class="advantage__header">Castomised</h3>
-						<p class="advantage__header-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo qui nam beatae eligendi quia pariatur facere consequatur libero dolore excepturi.</p>
-					</div>
-				</div>
-
-                <div class="col-md-4 col-sm-6">
-					<div class="advantage">
-						<i class="fa fa-car advantage__header-icon" aria-hidden="true"></i>
-						<h3 class="advantage__header">Castomised</h3>
-						<p class="advantage__header-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo qui nam beatae eligendi quia pariatur facere consequatur libero dolore excepturi.</p>
-					</div>
-				</div>
-
-                <div class="col-md-4 col-sm-6">
-					<div class="advantage">
-						<i class="fa fa-cog advantage__header-icon" aria-hidden="true"></i>
-						<h3 class="advantage__header">Castomised</h3>
-						<p class="advantage__header-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo qui nam beatae eligendi quia pariatur facere consequatur libero dolore excepturi.</p>
-					</div>
-				</div>
-
-                <div class="col-md-4 col-sm-6">
-					<div class="advantage">
-						<i class="fa fa-truck advantage__header-icon" aria-hidden="true"></i>
-						<h3 class="advantage__header">Castomised</h3>
-						<p class="advantage__header-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo qui nam beatae eligendi quia pariatur facere consequatur libero dolore excepturi.</p>
-					</div>
-				</div>
-
-                <div class="col-md-4 col-sm-6">
-					<div class="advantage">
-						<i class="fa fa-thumbs-up advantage__header-icon" aria-hidden="true"></i>
-						<h3 class="advantage__header">Castomised</h3>
-						<p class="advantage__header-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo qui nam beatae eligendi quia pariatur facere consequatur libero dolore excepturi.</p>
-					</div>
-				</div>
+            <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right"></span>
+                <span class="sr-only">Next</span>
+            </a>
         </div>
-    </div>
-	<div>
-</div>    
-</section>
 
-<section id="project" class="section-projects">
-	<div class="container-fluid">
-		<div class="row">
-			<div class="section-projects__text">
-				Our Projects
-			</div>
-			<div class="col-md-3 col-sm-6 section-projects__grid">
-					<div class="project">
-						<div class="project__image-wrap">
-							<div class="project__description">
-								<h4>PROJECT</h4>
-								<p>description</p>
-							</div>
-						</div>
-						<img src="img/1.jpg" class="img-responsive" alt="workItem">
-					</div>
-			</div>
+    </header>
 
-			<div class="col-md-3 col-sm-6 section-projects__grid">
-					<div class="project">
-						<div class="project__image-wrap">
-							<div class="project__description">
-								<h4>PROJECT</h4>
-								<p>description</p>
-							</div>
-						</div>
-						<img src="img/2.jpg" class="img-responsive" alt="workItem">
-					</div>
-			</div>
+    <section class="section-advantage" id="advantage">
+        <div class="conteiner">
+            <div class="row section-advantage__row">
+                <div class="section-advantage__text">Our Advantage</div>
+                <div class="col-md-4 col-sm-6">
+                    <div class="advantage">
+                        <i class="fa fa-wrench advantage__header-icon" aria-hidden="true"></i>
+                        <h3 class="advantage__header">Castomised</h3>
+                        <p class="advantage__header-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo qui nam beatae eligendi quia pariatur facere consequatur libero dolore excepturi.</p>
+                    </div>
+                </div>
 
-			<div class="col-md-3 col-sm-6 section-projects__grid">
-					<div class="project">
-						<div class="project__image-wrap">
-							<div class="project__description">
-								<h4>PROJECT</h4>
-								<p>description</p>
-							</div>
-						</div>
-						<img src="img/3.jpg" class="img-responsive" alt="workItem">
-					</div>
-			</div>
+                <div class="col-md-4 col-sm-6">
+                    <div class="advantage">
+                        <i class="fa fa-desktop advantage__header-icon"></i>
+                        <h3 class="advantage__header">Castomised</h3>
+                        <p class="advantage__header-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo qui nam beatae eligendi quia pariatur facere consequatur libero dolore excepturi.</p>
+                    </div>
+                </div>
 
-			<div class="col-md-3 col-sm-6 section-projects__grid">
-					<div class="project">
-						<div class="project__image-wrap">
-							<div class="project__description">
-								<h4>PROJECT</h4>
-								<p>description</p>
-							</div>
-						</div>
-						<img src="img/4.jpg" class="img-responsive" alt="workItem">
-					</div>
-			</div>
+                <div class="col-md-4 col-sm-6">
+                    <div class="advantage">
+                        <i class="fa fa-car advantage__header-icon" aria-hidden="true"></i>
+                        <h3 class="advantage__header">Castomised</h3>
+                        <p class="advantage__header-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo qui nam beatae eligendi quia pariatur facere consequatur libero dolore excepturi.</p>
+                    </div>
+                </div>
 
-			<div class="col-md-3 col-sm-6 section-projects__grid">
-					<div class="project">
-						<div class="project__image-wrap">
-							<div class="project__description">
-								<h4>PROJECT</h4>
-								<p>description</p>
-							</div>
-						</div>
-						<img src="img/5.jpg" class="img-responsive" alt="workItem">
-					</div>
-			</div>
+                <div class="col-md-4 col-sm-6">
+                    <div class="advantage">
+                        <i class="fa fa-cog advantage__header-icon" aria-hidden="true"></i>
+                        <h3 class="advantage__header">Castomised</h3>
+                        <p class="advantage__header-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo qui nam beatae eligendi quia pariatur facere consequatur libero dolore excepturi.</p>
+                    </div>
+                </div>
 
-			<div class="col-md-3 col-sm-6 section-projects__grid">
-					<div class="project">
-						<div class="project__image-wrap">
-							<div class="project__description">
-								<h4>PROJECT</h4>
-								<p>description</p>
-							</div>
-						</div>
-						<img src="img/6.jpg" class="img-responsive" alt="workItem">
-					</div>
-			</div>
+                <div class="col-md-4 col-sm-6">
+                    <div class="advantage">
+                        <i class="fa fa-truck advantage__header-icon" aria-hidden="true"></i>
+                        <h3 class="advantage__header">Castomised</h3>
+                        <p class="advantage__header-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo qui nam beatae eligendi quia pariatur facere consequatur libero dolore excepturi.</p>
+                    </div>
+                </div>
 
-			<div class="col-md-3 col-sm-6 section-projects__grid">
-					<div class="project">
-						<div class="project__image-wrap">
-							<div class="project__description">
-								<h4>PROJECT</h4>
-								<p>description</p>
-							</div>
-						</div>
-						<img src="img/7.jpg" class="img-responsive" alt="workItem">
-					</div>
-			</div>
+                <div class="col-md-4 col-sm-6">
+                    <div class="advantage">
+                        <i class="fa fa-thumbs-up advantage__header-icon" aria-hidden="true"></i>
+                        <h3 class="advantage__header">Castomised</h3>
+                        <p class="advantage__header-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo qui nam beatae eligendi quia pariatur facere consequatur libero dolore excepturi.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div>
+        </div>
+    </section>
 
-			<div class="col-md-3 col-sm-6 section-projects__grid">
-					<div class="project">
-						<div class="project__image-wrap">
-							<div class="project__description">
-								<h4>PROJECT</h4>
-								<p>description</p>
-							</div>
-						</div>
-						<img src="img/8.jpg" class="img-responsive" alt="workItem">
-					</div>
-			</div>
-		</div>
-	</div>
-</section>
+    <section id="project" class="section-projects">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="section-projects__text">
+                    Our Projects
+                </div>
+                <div class="col-md-3 col-sm-6 section-projects__grid">
+                    <div class="project">
+                        <div class="project__image-wrap">
+                            <div class="project__description">
+                                <h4>PROJECT</h4>
+                                <p>description</p>
+                            </div>
+                        </div>
+                        <img src="img/1.jpg" class="img-responsive" alt="workItem">
+                    </div>
+                </div>
 
-<section id="employeers" class="section-employeers">
-	<div class="container">
-		<div class="row section-employeers__row">
-			<div class="section-employeers__text">
-				Our Employeers
-			</div>
-			
-			<div class="col-md-3 col-sm-6">
-				<div class="employeer">
-					<img src="img/e1.jpg" class="img-responsive" alt="employeer">
-					<h4 class="employeer__name">Name Surname</h4>
-					<span class="employeer__work-place">Work Place</span><br>
-					<p class="employeer__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis ipsa, mollitia enim nisi illo architecto! Totam, possimus, animi reprehenderit tempora, laboriosam repellendus ducimus temporibus exercitationem sequi sed itaque repellat eos.</p>
-					<div class="employeer__button-conteiner">
-						<button class="employeer__button">
+                <div class="col-md-3 col-sm-6 section-projects__grid">
+                    <div class="project">
+                        <div class="project__image-wrap">
+                            <div class="project__description">
+                                <h4>PROJECT</h4>
+                                <p>description</p>
+                            </div>
+                        </div>
+                        <img src="img/2.jpg" class="img-responsive" alt="workItem">
+                    </div>
+                </div>
+
+                <div class="col-md-3 col-sm-6 section-projects__grid">
+                    <div class="project">
+                        <div class="project__image-wrap">
+                            <div class="project__description">
+                                <h4>PROJECT</h4>
+                                <p>description</p>
+                            </div>
+                        </div>
+                        <img src="img/3.jpg" class="img-responsive" alt="workItem">
+                    </div>
+                </div>
+
+                <div class="col-md-3 col-sm-6 section-projects__grid">
+                    <div class="project">
+                        <div class="project__image-wrap">
+                            <div class="project__description">
+                                <h4>PROJECT</h4>
+                                <p>description</p>
+                            </div>
+                        </div>
+                        <img src="img/4.jpg" class="img-responsive" alt="workItem">
+                    </div>
+                </div>
+
+                <div class="col-md-3 col-sm-6 section-projects__grid">
+                    <div class="project">
+                        <div class="project__image-wrap">
+                            <div class="project__description">
+                                <h4>PROJECT</h4>
+                                <p>description</p>
+                            </div>
+                        </div>
+                        <img src="img/5.jpg" class="img-responsive" alt="workItem">
+                    </div>
+                </div>
+
+                <div class="col-md-3 col-sm-6 section-projects__grid">
+                    <div class="project">
+                        <div class="project__image-wrap">
+                            <div class="project__description">
+                                <h4>PROJECT</h4>
+                                <p>description</p>
+                            </div>
+                        </div>
+                        <img src="img/6.jpg" class="img-responsive" alt="workItem">
+                    </div>
+                </div>
+
+                <div class="col-md-3 col-sm-6 section-projects__grid">
+                    <div class="project">
+                        <div class="project__image-wrap">
+                            <div class="project__description">
+                                <h4>PROJECT</h4>
+                                <p>description</p>
+                            </div>
+                        </div>
+                        <img src="img/7.jpg" class="img-responsive" alt="workItem">
+                    </div>
+                </div>
+
+                <div class="col-md-3 col-sm-6 section-projects__grid">
+                    <div class="project">
+                        <div class="project__image-wrap">
+                            <div class="project__description">
+                                <h4>PROJECT</h4>
+                                <p>description</p>
+                            </div>
+                        </div>
+                        <img src="img/8.jpg" class="img-responsive" alt="workItem">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="employeers" class="section-employeers">
+        <div class="container">
+            <div class="row section-employeers__row">
+                <div class="section-employeers__text">
+                    Our Employeers
+                </div>
+
+                <div class="col-md-3 col-sm-6">
+                    <div class="employeer">
+                        <img src="img/e1.jpg" class="img-responsive" alt="employeer">
+                        <h4 class="employeer__name">Name Surname</h4>
+                        <span class="employeer__work-place">Work Place</span><br>
+                        <p class="employeer__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis ipsa, mollitia enim nisi illo architecto! Totam, possimus, animi reprehenderit tempora, laboriosam repellendus ducimus temporibus exercitationem sequi sed itaque repellat
+                            eos.</p>
+                        <div class="employeer__button-conteiner">
+                            <button class="employeer__button">
 							<i class="fa fa-vk"></i>
 						</button>
-						<button class="employeer__button">
+                            <button class="employeer__button">
 							<i class="fa fa-odnoklassniki"></i>
 						</button>
-						<button class="employeer__button">
+                            <button class="employeer__button">
 							<i class="fa fa-twitter"></i>
 						</button>
-						<button class="employeer__button">
+                            <button class="employeer__button">
 							<i class="fa fa-facebook"></i>
 						</button>
-					</div>
-				</div>
-			</div>
+                        </div>
+                    </div>
+                </div>
 
-<div class="col-md-3 col-sm-6">
-				<div class="employeer">
-					<img src="img/e2.jpg" class="img-responsive" alt="employeer">
-					<h4 class="employeer__name">Name Surname</h4>
-					<span class="employeer__work-place">Work Place</span><br>
-					<p class="employeer__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis ipsa, mollitia enim nisi illo architecto! Totam, possimus, animi reprehenderit tempora, laboriosam repellendus ducimus temporibus exercitationem sequi sed itaque repellat eos.</p>
-					<div class="employeer__button-conteiner">
-						<button class="employeer__button">
+                <div class="col-md-3 col-sm-6">
+                    <div class="employeer">
+                        <img src="img/e2.jpg" class="img-responsive" alt="employeer">
+                        <h4 class="employeer__name">Name Surname</h4>
+                        <span class="employeer__work-place">Work Place</span><br>
+                        <p class="employeer__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis ipsa, mollitia enim nisi illo architecto! Totam, possimus, animi reprehenderit tempora, laboriosam repellendus ducimus temporibus exercitationem sequi sed itaque repellat
+                            eos.</p>
+                        <div class="employeer__button-conteiner">
+                            <button class="employeer__button">
 							<i class="fa fa-vk"></i>
 						</button>
-						<button class="employeer__button">
+                            <button class="employeer__button">
 							<i class="fa fa-odnoklassniki"></i>
 						</button>
-						<button class="employeer__button">
+                            <button class="employeer__button">
 							<i class="fa fa-twitter"></i>
 						</button>
-						<button class="employeer__button">
+                            <button class="employeer__button">
 							<i class="fa fa-facebook"></i>
 						</button>
-					</div>
-				</div>
-			</div>
+                        </div>
+                    </div>
+                </div>
 
-			<div class="col-md-3 col-sm-6">
-				<div class="employeer">
-					<img src="img/e3.jpg" class="img-responsive" alt="employeer">
-					<h4 class="employeer__name">Name Surname</h4>
-					<span class="employeer__work-place">Work Place</span><br>
-					<p class="employeer__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis ipsa, mollitia enim nisi illo architecto! Totam, possimus, animi reprehenderit tempora, laboriosam repellendus ducimus temporibus exercitationem sequi sed itaque repellat eos.</p>
-					<div class="employeer__button-conteiner">
-						<button class="employeer__button">
+                <div class="col-md-3 col-sm-6">
+                    <div class="employeer">
+                        <img src="img/e3.jpg" class="img-responsive" alt="employeer">
+                        <h4 class="employeer__name">Name Surname</h4>
+                        <span class="employeer__work-place">Work Place</span><br>
+                        <p class="employeer__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis ipsa, mollitia enim nisi illo architecto! Totam, possimus, animi reprehenderit tempora, laboriosam repellendus ducimus temporibus exercitationem sequi sed itaque repellat
+                            eos.</p>
+                        <div class="employeer__button-conteiner">
+                            <button class="employeer__button">
 							<i class="fa fa-vk"></i>
 						</button>
-						<button class="employeer__button">
+                            <button class="employeer__button">
 							<i class="fa fa-odnoklassniki"></i>
 						</button>
-						<button class="employeer__button">
+                            <button class="employeer__button">
 							<i class="fa fa-twitter"></i>
 						</button>
-						<button class="employeer__button">
+                            <button class="employeer__button">
 							<i class="fa fa-facebook"></i>
 						</button>
-					</div>
-				</div>
-			</div>
+                        </div>
+                    </div>
+                </div>
 
-			<div class="col-md-3 col-sm-6">
-				<div class="employeer">
-					<img src="img/e4.jpg" class="img-responsive" alt="employeer">
-					<h4 class="employeer__name">Name Surname</h4>
-					<span class="employeer__work-place">Work Place</span><br>
-					<p class="employeer__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis ipsa, mollitia enim nisi illo architecto! Totam, possimus, animi reprehenderit tempora, laboriosam repellendus ducimus temporibus exercitationem sequi sed itaque repellat eos.</p>
-					<div class="employeer__button-conteiner">
-						<button class="employeer__button">
+                <div class="col-md-3 col-sm-6">
+                    <div class="employeer">
+                        <img src="img/e4.jpg" class="img-responsive" alt="employeer">
+                        <h4 class="employeer__name">Name Surname</h4>
+                        <span class="employeer__work-place">Work Place</span><br>
+                        <p class="employeer__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis ipsa, mollitia enim nisi illo architecto! Totam, possimus, animi reprehenderit tempora, laboriosam repellendus ducimus temporibus exercitationem sequi sed itaque repellat
+                            eos.</p>
+                        <div class="employeer__button-conteiner">
+                            <button class="employeer__button">
 							<i class="fa fa-vk"></i>
 						</button>
-						<button class="employeer__button">
+                            <button class="employeer__button">
 							<i class="fa fa-odnoklassniki"></i>
 						</button>
-						<button class="employeer__button">
+                            <button class="employeer__button">
 							<i class="fa fa-twitter"></i>
 						</button>
-						<button class="employeer__button">
+                            <button class="employeer__button">
 							<i class="fa fa-facebook"></i>
 						</button>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-</section>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-<section class="section-download">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-6 col-md-offset-3">
-					<div class="section-download__block">
-						<h5 class="section-download__block-text">Are you ready to start? Connect with us!</h5>
-						<p class="section-download__block-description">Lorem ipsum dolor sit amet, consectetur</p>
-						<button class="btn btn_lg btn-success" data-toggle="modal" data-target="#connectModal">connect now</button>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
+    <section class="section-download">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-md-offset-3">
+                    <div class="section-download__block">
+                        <h5 class="section-download__block-text">Are you ready to start? Connect with us!</h5>
+                        <p class="section-download__block-description">Lorem ipsum dolor sit amet, consectetur</p>
+                        <button class="btn btn_lg btn-success" data-toggle="modal" data-target="#connectModal">connect now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-	<footer id="contact" class="footer">
-		<div class="footer__main">
-		<div class="container">
-			<div class="row footer__row">
-				<div class="col-md-4 footer__col">
-					<h4 class="footer__text">Address</h4>
-					<p class="footer__desc">
-						Republic Belarus, Mogilev
-					</p>
-				</div>
-				<div class="col-md-4">
-					<h4 class="footer__text">Location</h4>
-					<div class="footer__button-conteiner">
-						<button class="footer__button">
+    <footer id="contact" class="footer">
+        <div class="footer__main">
+            <div class="container">
+                <div class="row footer__row">
+                    <div class="col-md-4 footer__col">
+                        <h4 class="footer__text">Address</h4>
+                        <p class="footer__desc">
+                            Republic Belarus, Mogilev
+                        </p>
+                    </div>
+                    <div class="col-md-4">
+                        <h4 class="footer__text">Location</h4>
+                        <div class="footer__button-conteiner">
+                            <button class="footer__button">
 							<i class="fa fa-vk"></i>
 						</button>
-						<button class="footer__button">
+                            <button class="footer__button">
 							<i class="fa fa-odnoklassniki"></i>
 						</button>
-						<button class="footer__button">
+                            <button class="footer__button">
 							<i class="fa fa-twitter"></i>
 						</button>
-						<button class="footer__button">
+                            <button class="footer__button">
 							<i class="fa fa-facebook"></i>
 						</button>
-					</div>
-				</div>
-				<div class="col-md-4">
-					<h4 class="footer__text">Contact</h4>
-					<p class="footer__desc"> 
-						velcom 8-029-331-26-46
-					</p>
-				</div>
-			</div>
-			</div>
-		</div>
-		<div class="developer">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-4 col-md-offset-4">
-					<h5 class="developer__text">2017. AleksReen - Template Bootstrap</h5>
-					<h5 id="toTop" class="developer__toTop">
-						<a class="anchor" href="#header">Go to Top</a>
-					</h5>
-				</div>
-			</div>
-		</div>
-		</div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <h4 class="footer__text">Contact</h4>
+                        <p class="footer__desc">
+                            velcom +375(44)779-69-06
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="developer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4 col-md-offset-4">
+                        <h5 class="developer__text">2017. AleksReen - Template Bootstrap</h5>
+                        <h5 id="toTop" class="developer__toTop">
+                            <a class="anchor" href="#header">Go to Top</a>
+                        </h5>
+                    </div>
+                </div>
+            </div>
+        </div>
 
-		<button class="call_btn" data-toggle="modal" data-target="#connectModal">
+        <button class="call_btn" data-toggle="modal" data-target="#connectModal">
 			<span class="glyphicon glyphicon-send"></span>
 		</button>
 
-	</footer>
+    </footer>
 
-<div class="modal fade" id="connectModal">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        <h4 class="modal-title">Message</h4>
-      </div>
-      <div class="modal-body">
-        <form action="#" id="connectForm">
-        	<input type="text" class="form-control" placeholder="Ваше имя">
-        	<input type="email" class="form-control" placeholder="E-Mail">
-        	<textarea class="connectForm__textarea" placeholder=" Write a message"></textarea>
-        	<input  type="submit" value="Send Message" class="btn btn-lg btn-success connectForm__button">
-        </form>
-      </div>
-  </div>
-</div>
-</div>
+    <div class="modal fade" id="connectModal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title">Message</h4>
+                </div>
+                <div class="modal-body">
+                    <form action="#" id="connectForm">
+                        <input type="text" class="form-control" placeholder="Ваше имя">
+                        <input type="email" class="form-control" placeholder="E-Mail">
+                        <textarea class="connectForm__textarea" placeholder=" Write a message"></textarea>
+                        <input type="submit" value="Send Message" class="btn btn-lg btn-success connectForm__button">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
 
-	<script src="libs/jquery/jquery-2.1.4.min.js"></script>
-	<script src="libs/bootstrap/js/bootstrap.min.js"></script>
-	<script src="js/common.js"></script>
-	
+    <script src="libs/jquery/jquery-2.1.4.min.js"></script>
+    <script src="libs/bootstrap/js/bootstrap.min.js"></script>
+    <script src="js/common.js"></script>
+
 </body>
+
 </html>
